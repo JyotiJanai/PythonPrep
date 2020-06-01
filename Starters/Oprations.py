@@ -15,3 +15,6 @@ print(4 ** 2)
 
 # Modulus
 print(10 % 4)
+
+x = "string"
+print(x)
