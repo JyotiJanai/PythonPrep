@@ -8,3 +8,10 @@ def dummy():
 
 dummy()
 print("Python is " + x)
+
+
+def my_func(f_name, l_name):
+    print(f_name + " " + l_name)
+
+
+my_func("Trisha", "B")
