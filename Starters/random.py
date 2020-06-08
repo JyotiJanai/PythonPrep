@@ -5,7 +5,7 @@ def reverse(s):
 
     return str
 
-
+            print("hi")
 s = "jyoti"
 x = reverse(s)
 
