@@ -1,3 +1,5 @@
+from fibbo import *
+
 print("Hi")
 print("This is my first Python Program")
 print("This line will be printed.")
