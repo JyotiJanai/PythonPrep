@@ -25,3 +25,11 @@ f.close()
 
 f = open("demofile2.txt", "r")
 print(f.read())
+f.close()
+
+import os
+
+os.remove("demofile2.txt")
+
+f = open("demofile2.txt", "r")
+print(f.demofile2())
