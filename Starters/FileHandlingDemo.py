@@ -5,4 +5,9 @@ f.close()
 f = open("myfile1.txt", "r")
 print(f.read())
 
-# f = open("myfile1.txt","x")
+f = open("myfile12.txt", "w")
+f.write("Hello")
+f.close()
+
+f = open("myfile12.txt", "r")
+print(f.read())
