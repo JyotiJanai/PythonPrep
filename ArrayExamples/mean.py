@@ -15,8 +15,14 @@ print(x)
 x = np.std(speed)
 print(x)
 
+import numpy as np
+
 speed = [32, 111, 138, 28, 59, 77, 97]
 x = np.var(speed)
 x1 = np.percentile(speed, 60)
 print(x)
 print(x1)
+
+# What is the speed that 90% of the speeds are lower than?
+x = np.percentile(speed, 80)
+print(x)
