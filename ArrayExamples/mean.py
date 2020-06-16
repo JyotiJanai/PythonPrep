@@ -11,3 +11,12 @@ from scipy import stats
 
 x = stats.mode(speed)
 print(x)
+
+x = np.std(speed)
+print(x)
+
+speed = [32, 111, 138, 28, 59, 77, 97]
+x = np.var(speed)
+x1 = np.percentile(speed, 60)
+print(x)
+print(x1)
